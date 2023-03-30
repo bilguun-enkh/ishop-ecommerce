@@ -11,6 +11,7 @@ export default function SearchBar(props) {
   const signOut = () => {
     setLogin(false)
     localStorage.removeItem("token")
+    console.log('te')
     setLogin(false)
   }
   const notifyBasketRemove = (title) =>
